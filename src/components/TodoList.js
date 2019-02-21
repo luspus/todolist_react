@@ -6,8 +6,8 @@ const TodoList = (props) => {
         <div className='todos-list'>
           {todos.length > 0
            ?
-              <div>{todos.length} todo for you</div>
-           :
+              <div>{todos.filter(todo => todo.completed === false).length} to do for you</div>
+              :
               <div>No todos yet</div>
           }
           {todos.map((todo, id) => {
