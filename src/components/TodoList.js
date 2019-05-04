@@ -5,10 +5,10 @@ const TodoList = (props) => {
     return (
         <div className='todos-list'>
           {todos.length > 0
-           ?
-              <div>{todos.filter(todo => todo.completed === false).length} to do for you</div>
+              ?
+                  <div>{todos.filter(todo => todo.completed === false).length} to do for you</div>
               :
-              <div>No todos yet</div>
+                  <div>No todos yet</div>
           }
           {todos.map((todo, id) => {
               return (<div key={id}>
