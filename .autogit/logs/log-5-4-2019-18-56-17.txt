@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Sun May 05 2019 18:56:17 GMT+0300 (Фінляндія (літо))
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-5-4-2019-18-26-11.txt
+
+
+Deleted files:
+
+
+Renamed files:
